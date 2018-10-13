@@ -12,4 +12,5 @@ script:
   - docker push edidada/eureka-server-test:latest
 notifications:
     email:
-    - sandisks555@gmail.com
+    - edidada555@gmail.com
+    - edidada@outlook.com

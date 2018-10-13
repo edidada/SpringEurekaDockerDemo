@@ -74,7 +74,7 @@
                     <baseImage>java</baseImage>
                     <imageTags>
                         <imageTag>${project.version}</imageTag>
-                        <!--<imageTag>latest</imageTag>-->
+                        <imageTag>latest</imageTag>
                     </imageTags>
                     <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
                     <dockerHost>http://127.0.0.1:2375</dockerHost>
