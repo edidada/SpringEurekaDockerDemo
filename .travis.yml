@@ -8,8 +8,9 @@ before_install:
 script:
   - mvn clean package -DskipTests=true docker:build
   - docker login -u="edidada" -p="5Edidada"
-  - docker push edidada/eureka-server-test:0.0.6-SNAPSHOT
-  - docker push edidada/eureka-server-test:latest
+  - docker push edidada/eureka-server-test
+#  - docker push edidada/eureka-server-test:0.0.6-SNAPSHOT
+#  - docker push edidada/eureka-server-test:latest
 notifications:
     email:
     - edidada555@gmail.com
