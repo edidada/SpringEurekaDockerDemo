@@ -4,4 +4,4 @@ jdk:
 before_install:
   - chmod +x ./mvnw
 script:
-  - mvn clean package -DskipTests=true
+  - mvn clean package -DskipTests=true docker:build
