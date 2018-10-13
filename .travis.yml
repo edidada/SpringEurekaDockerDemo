@@ -12,6 +12,9 @@ script:
 #  - docker push edidada/eureka-server-test:0.0.6-SNAPSHOT
 #  - docker push edidada/eureka-server-test:latest
 notifications:
-    email:
+  email:
+    recipients:
     - edidada555@gmail.com
     - edidada@outlook.com
+    on_success: always # default: change
+    on_failure: always # default: always
