@@ -5,7 +5,7 @@
 
     <groupId>cn.edidada</groupId>
     <artifactId>spring_boot_eureka_demo</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.0.9-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>spring_boot_eureka_demo</name>
