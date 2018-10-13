@@ -9,12 +9,9 @@ script:
   - mvn clean package -DskipTests=true docker:build
   - docker login -u="edidada" -p="5Edidada"
   - docker push edidada/eureka-server-test
-#  - docker push edidada/eureka-server-test:0.0.6-SNAPSHOT
-#  - docker push edidada/eureka-server-test:latest
 notifications:
   email:
     recipients:
-    - edidada555@gmail.com
-    - edidada@outlook.com
-    on_success: always # default: change
+    - sandisks555@gmail.com
+    on_success: always # default: change never
     on_failure: always # default: always
