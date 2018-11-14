@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.edidada</groupId>
-    <artifactId>spring_boot_eureka_demo</artifactId>
-    <version>0.1.0</version>
+    <artifactId>spring-cloud-eureka</artifactId>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
-    <name>spring_boot_eureka_demo</name>
-    <description>spring_boot_eureka_demo project for Spring Boot</description>
+    <name>spring-cloud-eureka</name>
+    <description>spring-cloud-eureka</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -69,7 +69,7 @@
                 <version>1.2.0</version>
                 <configuration>
                     <!-- 镜像名称 -->
-                    <imageName>${docker.image.prefix}/eureka-server-test</imageName>
+                    <imageName>${docker.image.prefix}/spring-cloud-eureka</imageName>
                     <!-- 依赖java镜像 -->
                     <baseImage>java</baseImage>
                     <imageTags>
