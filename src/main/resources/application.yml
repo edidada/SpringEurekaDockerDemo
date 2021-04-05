@@ -1,0 +1,15 @@
+#配置日志
+logging:
+  #此处存放日志的路径
+  path:
+    config: classpath:config/logback-spring.xml
+  #指定不同目录下的日志的级别
+  level:
+    cn:
+      edidada:
+        spring_boot_eureka_demo: DEBUG
+spring:
+  application:
+    name: d
+server:
+  port:8089
